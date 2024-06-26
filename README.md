@@ -26,7 +26,7 @@ This Discord bot is designed to monitor a specific process running on a PC and n
 2. Install dependencies:
 
 npm install
-Configure environment variables:
+3. Configure environment variables:
 
 Create a .env file in the root directory with the following content:
 
@@ -35,10 +35,10 @@ PROCESS_NAME=your_process_name_here
 CHANNEL_ID = your_channel_id
 Replace your_discord_bot_token_here with your actual Discord bot token, your_process_name_here with the name of the process you want to monitor and your_channel_id_here with the real your channel id.
 
-Start the bot:
+4. Start the bot:
 
 node bot.js
-Usage
+## Usage
 The bot will automatically start monitoring the specified process upon startup.
 It will check the status of the process every 30 minutes.
 When the process starts or stops, it will send a message to the designated Discord channel.
