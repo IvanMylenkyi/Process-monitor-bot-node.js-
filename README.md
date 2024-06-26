@@ -21,7 +21,7 @@ This Discord bot is designed to monitor a specific process running on a PC and n
 
 1. Clone the repository:
 
-   git clone https://github.com/IvanMylenkyi/ServerNotificationBot
+   git clone https://github.com/IvanMylenkyi/Process-monitor-bot-node.js-
    cd repository
 2. Install dependencies:
 
