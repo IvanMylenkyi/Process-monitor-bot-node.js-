@@ -1,0 +1,27 @@
+{
+  "name": "servernotificationbot",
+  "version": "1.0.0",
+  "description": "Discord bot which send notification about server",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "go": "nodemon bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanMylenkyi/ServerNotificationBot.git"
+  },
+  "author": "Ivan Mylenkyi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IvanMylenkyi/ServerNotificationBot/issues"
+  },
+  "homepage": "https://github.com/IvanMylenkyi/ServerNotificationBot#readme",
+  "type": "module",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "pkg": "^5.8.1",
+    "ps-list": "^8.1.1"
+  }
+}
